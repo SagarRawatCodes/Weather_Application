@@ -3,7 +3,7 @@
     const searchButton = document.querySelector(".search-btn");
     const locationButton = document.querySelector(".location-btn");
     const weatherCardsDiv = document.querySelector(".weather-cards")
-    const API_KEY="2673d61756ccc92ad64e38b4520ef1dc";
+    const API_KEY=" your api key";
     const createWeatherCard=(cityName,weatherItem)=>{
       return `<li class="card">
       <h3>(${weatherItem.dt_txt.split(" ")[0]})</h3>
